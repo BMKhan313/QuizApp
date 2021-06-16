@@ -1,0 +1,116 @@
+.App{
+    border: 2px solid green;
+    background-color: rgba(123, 241, 196, 0.904);
+    width: 100%;
+    height: 40em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Menu {
+    border: blue solid black;
+    background-color: brown;
+  
+    width: 40%;
+    height: 22em;
+    margin-top: 4em;
+    
+    border-radius: 1em;
+    box-shadow:  8px 8px 8px 8px blue;
+    padding-top: 6em;
+     display: flex;
+    /* justify-content: center; */ 
+    
+}
+.Menu > .startBtn {
+    margin-top: 22em;
+    margin-left: 50%;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(41, 241, 141);
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 15em;
+    /* display: flex;  */
+    /* justify-content: center;
+     align-content: center; */
+}
+.Menu > .startBtn:hover{
+    background-color: rgb(8, 106, 131);
+}
+.Quiz > .optBtn:hover{
+    background-color: rgb(5, 14, 94);
+}
+.restartBtn{
+    background-color: rgb(33, 243, 138);
+    width: fit-content;
+    height: fit-content;
+    margin-top: 24em;
+    margin-left: -2em;
+    padding: 4px;
+}
+
+.questions{
+    border: 2px solid rgb(0, 112, 139);
+    background-color: rgba(64, 196, 248, 0.973);
+    width: 30em;
+    height: 10em;
+    /* padding: 5px; */
+    margin-top: 1em;
+    margin-left: -27em;
+    /* display: flex;  */
+    /* justify-content: center;
+    align-content: center; */
+  
+   }
+   
+ .options {
+       /* display: column; */
+       justify-content: center;    
+       margin-top: 16em;
+       
+
+     } 
+      
+.optBtn{
+   /* display: inline-block; */
+   /* justify-content: space-between; */
+   margin-left: -10em;
+   padding: 2em;
+   width: 5em;
+   
+}
+.nextbtn{
+    height: 2em;
+    width: 6em;
+    margin-top: 24em;
+    background-color: rgb(13, 202, 123);
+    
+}
+.instructions{
+    /* position: relative; */
+    border: 2px solid blueviolet;
+    width: 84%;
+    height: fit-content;
+    margin-left: -24em;
+    padding: 0.6em;
+    background-color: rgb(249, 250, 253);
+    margin-top: 12em;
+    
+    box-shadow: 4px 4px 4px blue;
+}
+
+.marks {
+    border: 1px solid rgb(47, 255, 193);
+    height: fit-content;
+    /* width: 4rem; */
+    background-color: rgb(76, 240, 204);
+    margin-left: 30em;
+    margin-top: -5em; 
+    box-shadow: 2px 2px 4px rgb(93, 233, 175);
+    
+  }
+
+  
